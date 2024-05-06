@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container ul li a{
+    padding: 20px;
+    position: relative;
+    width: 100%;
+}
+
+.container ul li{
+    list-style: none;
+}
+
+.ayuda {
+    display: flex;
+}
+
+.container div {
+    padding: 20px;
+}
+
+p {
+    padding: 0 20px;
+}
+
+.container input {
+    position: relative;
+    left: 20px;
+}
+
+
+img {
+    max-width: 300px;
+    border-radius: 50px;
+    padding: 20px;
+}

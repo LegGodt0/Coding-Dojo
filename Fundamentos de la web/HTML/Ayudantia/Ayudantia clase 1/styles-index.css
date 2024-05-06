@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    background: #101010f1;
+}
+
+.container ul li a{
+    color:rgb(0, 162, 255);
+    padding: 0 0 0 10px;
+    position: relative;
+    text-decoration: none;
+    width: 100%;
+}
+
+.ayuda{
+    display: flex;
+}
+
+.tabla {
+    color: #fff;
+    padding: 10px;
+}
