@@ -1,0 +1,117 @@
+html{
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    margin: 0;
+    background-color: #efefef;
+}
+
+header{
+    background-color: #364552;
+    color: white;
+    padding: 3rem 2rem;
+}
+
+header h1{
+    font-size: 4rem;
+    text-align: center;
+}
+
+.container{
+    width: 2000px;
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
+}
+
+.un-list{
+    text-align: center;
+}
+
+div article {
+    transition: box-shadow 0.3s ease;
+    background-color: #fff;
+    margin: 1rem 0;
+    border-radius: 0.5rem;
+    padding: 0.25rem 0;
+    cursor: pointer;
+}
+
+.align-tables{
+    display: inline-block;
+    justify-content: center;
+    padding: 0 2em 0;
+}
+
+table {
+    width: 35rem;
+    height: 20rem;
+}
+
+table, th, td{
+    border: 1px solid black;
+}
+
+div article:hover{
+    box-shadow: 0 0.1rem 0.4rem rgba(0,0,0,0.3);
+}
+
+div article h2, div article p{
+    margin: 1rem;
+}
+
+div article a{
+    color: #000;
+    text-decoration: none;
+}
+
+.curiosity p {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+footer{
+    background-color: #222;
+    padding: 3rem;
+    color: #fff;
+}
+
+footer div{
+    float: right;
+}
+
+footer p{
+    margin:0;
+}
+
+footer a {
+    transition: color 0.3s ease;
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover{
+    color: cornflowerblue;
+}
+
+ul li {
+    list-style: none;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+.mail-input {
+    font-size: 20px;
+    padding: 4px;
+    margin-bottom: 6px;;
+}
+
+button {
+    margin: 20px;
+    font-size: 20px;
+    padding: 0 20px;
+    cursor: pointer;
+}
