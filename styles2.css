@@ -1,0 +1,34 @@
+nav .search_box{
+    display: flex;
+    margin: auto 0 auto 400px;
+    height: 45px;
+    line-height: 35px;
+}
+
+/* INPUT DEL SEARCH */
+
+nav .search_box input:nth-child(1){
+    border: none;
+    outline: none;
+    background: #fff;
+    height: 100%;
+    padding: 0 10px 0 45px;
+    font-size: 25px;
+    width: 350px;
+    border-radius: 20px;
+}
+
+nav .search_box span{
+    color:#0a5071;
+    font-size: 20px;
+    background: #fff;
+    height: 40%;
+    top: 5px;
+    right: 345px;
+    padding: 8px;
+    position: relative;
+    cursor: pointer;
+    z-index: 1;
+    border-radius: 50%;
+    transform: scaleX(-1);
+}
