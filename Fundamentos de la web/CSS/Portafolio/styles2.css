@@ -1,0 +1,105 @@
+/* IMPORTS */
+
+@font-face {
+    font-family: "Chintzy Heavy";
+    src: url(./src/font/ZTChintzy-Heavy.ttf);
+}
+
+/* GLOBAL DECLARATIONS */
+
+* {
+    margin: auto;
+    padding: 0px;
+}
+
+body{
+    width: 65%;
+    font-size: 65%;
+}
+
+nav {
+    background: #f9f9f9;
+    height: 4.5rem;
+    display: block;
+}
+
+nav .logo {
+    text-align: left;
+    width:30%;
+    display:inline-block;
+    padding: 1% 2% 0.6% 3%;
+    font-size: 2rem;
+    font-family: "Chintzy Heavy", sans-serif;
+}
+
+nav h3 {
+    text-align: right;
+    display:inline-block;
+    width: 63%;
+    font-size: 1.5rem;
+}
+
+.container {
+    background: linear-gradient(
+        #1d0d11 0%,
+        #6f5964 50%,
+        #4f3b43
+    );
+    height: 100rem;
+    padding: 15px 20px 15px;
+}
+
+/*ABOUT*/
+
+.middle-about {
+    max-height: 20rem;
+    min-width: 30%;
+}
+
+.profile-photo {
+    display: inline-block;
+    width: 44%;
+    padding: 7px;
+}
+
+.profile-photo img {
+    max-width: 95%;
+    border: 1px solid gray;
+    border-width: 5px;
+}
+
+.about {
+    display: inline-block;
+    max-width: 54%;
+    height: 23.3rem;
+    background: linear-gradient(
+        #fff 25%,
+        #e5e5e5 60%,
+        gray
+    );
+    vertical-align: top;
+    margin: 7px 5px 5px;
+}
+
+.about h3 {
+    background: linear-gradient(
+        rgb(198, 198, 198) 0%,
+        gray 50%,
+        silver
+    );
+    color: #fff;
+    padding: 5px 1px 5px 5px;
+    font-size: 1.5rem;
+}
+
+.about p {
+    padding: 5px 6px 5px 8px;
+    font-size: 1.5rem;
+}
+
+.about a {
+    padding: 5px 6px 10px 8px;
+    margin-bottom: 20px;
+    color: #000;
+    font-size: 1.5rem;
+}

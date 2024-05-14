@@ -1,0 +1,134 @@
+/* DECLARACIONES GLOBALES */
+
+@media (prefers-reduced-motion: no-preference) {
+    * {
+        scroll-behavior: smooth;
+    }
+}
+
+* {
+    margin: auto;
+    padding: 0;
+}
+
+html {
+    background: #12355b;
+    width: 970px;
+    align-items: center;
+}
+
+/* INICIO HEADER */
+
+header {
+    background: #d72638;
+    color: #bfd7e4;
+    margin: 1%;
+    padding: 10px 10px 10px 15px;
+    border-radius: 10px;
+}
+
+/* FIN HEADER */
+
+/* INICIO CELESTE */
+
+.nav {
+    background: #087e8b;
+    width: 240px;
+    height: 270px;
+    border-radius: 20px;
+    margin: 10px 20px 10px 10px;
+    display: inline-block;
+    vertical-align: top;
+    padding: 20px;
+    font-size: 20px;
+    
+}
+
+a:hover {
+    color: #fff;
+}
+
+a, .first-ul li {
+    color: #52dee5;
+}
+
+.first-ul, .second-ul {
+    padding-left: 24px;
+}
+/* FIN CELESTE*/
+
+/* INICIO CONTENIDO */
+
+.content {
+    background: #0c1821;
+    width: 590px;
+    height: 100%;
+    border-radius: 20px;
+    margin-top: 10px;
+    display: inline-block;
+    padding-left: 25px;
+    padding-right: 30px;
+    padding-bottom: 25px;
+}
+
+h2 {
+    font-size: 40px;
+    padding: 30px 10px 15px 0px;
+    color: #bfd7e4;
+}
+
+p, .description-content {
+    color: #c2d6ec;
+}
+
+.description-content {
+    font-size: 22px;
+    padding-bottom: 15px;
+}
+
+p {
+    font-size: 21px;
+}
+
+.content-ul {
+    padding-left: 20px;
+}
+
+.content-ul li {
+    color: #bfd7ea;
+    padding: 10px 0px;
+}
+
+#variable-declaration p a {
+    padding-right: 5px;
+}
+
+.blue-one {
+    color: #7692ff;
+}
+
+/* FIN CONTENIDO */
+
+/* INICIO NAV FOOTER */
+
+.footer-bar {
+    background: #5c6672;
+    height: 70px;
+    width: 936px;
+    margin: 25px 20px 25px 20px;
+    border-radius: 30px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.footer-bar:hover,
+.footer-bar:focus {
+    box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+    transform: translateY(-0.55em); 
+}
+
+.footer-bar p {
+    padding: 22px 20px 10px 27px;
+}
+
+/* TÉRMINO NAV FOOTER */
