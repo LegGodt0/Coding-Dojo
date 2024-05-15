@@ -30,6 +30,7 @@ body {
 .top-header h1 {
     font-size: 2.7rem;
     font-family: "Comic Sans MS", "Comic Sans";
+    cursor: pointer;
 }
 
 @media only screen and (max-width: 500px){
@@ -165,7 +166,7 @@ nav ul li a:hover{
         display: inline;
         position: absolute;
         top: 12.5rem;
-        left: 49%;
+        left: 47.5%;
         font-size: 40px;
         cursor: pointer;
         transition: 0.5s;
@@ -242,7 +243,7 @@ main h2 {
         max-width: 100%;
         padding: 1rem;
         margin-bottom: 20px;
-        height: 20vh;
+        height: 80%;
     }
 
     .discover {
