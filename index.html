@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <script src="./script.js"></script>
+    <title>Succulent Shop</title>
+</head>
+<body>
+    <header>
+        <div class="top-header">
+            <img src="./assets/leaf.png" alt="leaf logo photo">
+            <h1>EasyBay</h1>
+
+            <div class="search_box">
+                <input type="search">
+                <input type="image" src="./assets/search-dark.png">
+            </div>
+
+            <a href="#">Sign In</a>
+            <img src="./assets/cart-dark.png" alt="cart photo" onclick="Click()">
+        </div>
+
+        <nav>
+            <div id="toggleMenu" class="toggle-menu" onclick="openMenu()">
+                <i class="fas fa-bars"></i>
+            </div>
+            <ul id="mainMenu" class="main-menu">
+                <li><a href="#aeonium">Aeonium</a></li>
+                <li><a href="https://es.m.wikipedia.org/wiki/Adromischus" target="_blank">Andormischus</a></li>
+                <li><a href="https://es.wikipedia.org/wiki/Agave" target="_blank">Agave</a></li>
+                <li><a href="#aloe">Aloe</a></li>
+                <li><a href="https://es.wikipedia.org/wiki/Anacampseros">Anacampseros</a></li>
+                <li><a href="https://es.wikipedia.org/wiki/Aristaloe_aristata">Aristaloe</a></li>
+                <li><a href="https://es.wikipedia.org/wiki/Plantae">More...</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="container" class="container">
+        <h2>Your Source for Serious Succulent Specialties</h2>
+
+        <section class="images-with-transitions">
+
+            <div class="text-with-images">
+                <div class="text">
+                    <h3>Discover succulent varieties one pot or rack at a time!</h3>
+                    <div class="discover">
+                        <h4>Discover</h4>
+                        <img src="./assets/arrow-light.png" alt="arrow img">
+                    </div>
+                </div>
+                
+
+                <div class="images">
+                    <div class="images">
+                        <img src="./assets/succulents-1.jpg">
+                    </div>
+                    <div class="image-sustitution">
+                        <img src="./assets/succulents-2.jpg">
+                    </div>
+                </div>
+            </div>
+
+            <div class="images-with-button">
+                <img src="./assets/aloe-m.jpg" alt="aloe photo">
+                <div class="discover-two">
+                    <h4>Soothing Aloe</h4>
+                    <span class="arrow">
+                        <img src="./assets/arrow-light.png" alt="arrow img">
+                    </span>
+                </div>
+            </div>
+
+        </section>
+    
+        <section class="plant-samples">
+            <div class="plant">
+                <img src="./assets/aeonium-s.jpg" alt="aeonium sample">
+                <a id="aeonium" href="https://es.wikipedia.org/wiki/Aeonium" target="_blank">Aeonium</a>
+            </div>
+            <div class="plant">
+                <img src="./assets/aloe-s.jpg" alt="aloe sample">
+                <a id="aloe" href="https://es.wikipedia.org/wiki/Aloe_vera" target="_blank">Aloee</a>
+            </div>
+            <div class="plant">
+                <img src="./assets/cactus-s.jpg" alt="cactus sample">
+                <a id="cactus" href="https://es.wikipedia.org/wiki/Cactaceae" target="_blank">Cactus</a>
+            </div>
+            <div class="plant">
+                <img src="./assets/echeveria-s.jpg" alt="echeveria sample">
+                <a id="echeveria" href="https://es.wikipedia.org/wiki/Echeveria" target="_blank">Echeveria</a>
+            </div>
+            <div class="plant">
+                <img src="./assets/sedum-s.jpg" alt="sedum sample">
+                <a id="sedum" href="https://es.wikipedia.org/wiki/Sedum" target="_blank">Sedum</a>
+            </div>
+            <div class="plant">
+                <img src="./assets/sempervivum-s.jpg" alt="sempervivum sample">
+                <a id="sempervivum" href="https://es.wikipedia.org/wiki/Sempervivum" target="_blank">Sempervivum</a>
+            </div>
+        </section>
+    </main>
+
+    <footer id="body">
+        <div id="cajacookies">
+            <img src="./assets/alert-dark.png" alt="alert photo">
+            <p>This site makes use of third-party cookies, by clicking "I accept" you agree to the terms outlined in our <a href="#">cookie policy</a></p>
+            <button onclick="aceptarCookies()">I accept</button>
+        </div>
+    </footer>
+
+</body>
+</html>
