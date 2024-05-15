@@ -242,7 +242,7 @@ main h2 {
         display: grid;
         max-width: 100%;
         padding: 1rem;
-        margin-bottom: 3rem;
+        margin-bottom: 20px;
         height: 80%;
     }
 
