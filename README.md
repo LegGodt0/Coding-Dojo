@@ -7,5 +7,6 @@
 	<li>Metallica Blog</li>
 	<li>Portfolio</li>
 	<li>Python Landing Page</li>
-	<li>🔥Accordance Bible Software🔥</li>
+	<li>☘Accordance Bible Software☘</li>
+	<li>Easy Bay Landing Page 🔥Responsive🔥</li>
 </ul>
