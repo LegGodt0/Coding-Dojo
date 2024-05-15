@@ -1,0 +1,318 @@
+/* GLOBAL STYLING */
+
+* {
+    margin: auto;
+    padding: 0;
+}
+
+html {
+    background-color: rgb(219, 236, 253);
+}
+
+body {
+    width:60.625rem;
+    font-size: 62.5%;
+    background-color: #245076;
+    height: 60rem;
+    font-family: sans-serif;
+}
+
+.yellow-text_with_underline {
+    color: #ebc736;
+}
+
+.yellow-text_with_underline:hover {
+    color: #ffffff;
+    transition: .5s;
+}
+
+.black-text {
+    color: #000;
+}
+
+/* PROPIERTIES */
+
+/* INICIO HEADER */
+
+header {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 0.5rem;
+}
+
+header img {
+    width: 35%;
+    margin-left: 2rem;
+}
+
+.search-side {
+    width: 50%;
+    margin-left: 15rem;
+    margin-bottom: 1.6rem;
+}
+
+.search-side p{
+    font-size: 0.8rem;
+    color: #fff;
+    padding-left: 43%;
+    padding-bottom: 2%;
+}
+
+.search-box {
+    background: #444444;
+    width: 18rem;
+    height: 3rem;
+    border-radius: 0.5rem;
+    box-shadow: 0.1rem 0.15rem 0.1rem rgb(34, 34, 34);
+    display: flex;
+    justify-content: center;
+}
+
+.search-box input:nth-child(1) {
+    height: 2rem;
+    border-top-color: #d2d2d2;
+    border-left-color: #d2d2d2;
+    border-bottom-color: #eeeeee;
+    border-right-color: #eeeeee;
+
+}
+
+.search-box input:nth-child(2) {
+    margin-left: -1rem;
+    border-radius: 0.3rem;
+    padding: 0.35rem;
+    border-top-color: #c0c0c0;
+    border-left-color: #c0c0c0;
+    border-right-color: #808080;
+    border-bottom-color: #808080;
+    background: #265175;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.search-box>input:nth-child(1)::placeholder{
+    text-align: center;
+}
+
+/* FIN HEADER*/
+
+
+/* INICIO CONTENT */
+/* INICIO NAV BAR */
+
+nav {
+    background: linear-gradient(
+        #3876ab 0%,
+        #497fab 50%,
+        #3876ab
+    );
+    width: 85%;
+    margin-left: 5.4rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    height: 4rem;
+    border-radius: 0.5rem;
+    box-shadow: 0.1rem 0.15rem 0.1rem rgb(34, 34, 34);
+    
+}
+
+nav ul{
+    display: flex;
+    padding-top: 0.65rem;
+    margin-left: 1.5rem;
+    width: 94%;
+}
+
+nav ul li {
+    padding: 0.4rem;
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.5rem;
+}
+
+nav ul li a:hover {
+    color: #89bae3;
+    transition: 0.4s;
+}
+
+
+/* FIN NAV BAR */
+
+/* INICIO GUIDE*/
+
+.guide {
+    width: 85%;
+    display: grid;
+    grid-template-columns: 1fr 36.5rem;
+}
+
+/* INICIO UL SIDE GUIDE */
+
+.guide ul li {
+    list-style: none;
+    font-size: 1.2rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.guide ul li a {
+    color: #ffffff;
+    text-decoration-thickness: 0.3px;
+} 
+
+.guide ul li span {
+    font-size: 1rem;
+    padding-right: 0.3rem;
+    color: #ffd343;
+    display: inline-block;
+    position: relative;
+    transition: 1s;
+}
+
+.guide ul li:hover {
+    span {
+        padding-left: 40px;
+    }
+    a {
+        color: #89bae3;
+        transition: 0.5s;
+    }
+}
+
+/* FIN UL SIDE GUIDE*/
+/* INICIO CONTENT*/
+
+.content-guide {
+    text-align: center;
+    color: #ffffff;
+    font-size: 1rem;
+}
+
+.content-guide p {
+    padding-bottom: 0.5rem;
+}
+
+.content-guide h4 {
+    color: #ffd343;
+    font-size: 1.3rem;
+    padding: 0.5rem;
+    font-style:oblique;
+    font-weight: 100;
+}
+
+.content-guide h5 {
+    color: #ffffff;
+    font-size: 1.25rem;
+    margin-top: 0.5rem;
+    font-weight: 100;
+}
+
+/* FIN CONTENT */
+/* FIN GUIDE */
+
+/* INICIO INFORMATION */
+
+.information {
+    background: #ffffff;
+    width: 100%;
+    height: 15.6rem;
+    margin-top: 2rem;
+}
+
+.content-information {
+    height: 100%;
+    width: 85%;
+    margin-left: 5.4rem;
+    display: flex;
+}
+
+.getting-started,
+.applications {
+    border-top: 4px solid #75a8d3;
+    width: 45%;
+    height: 90%;
+    font-size: 1rem;
+}
+
+.getting-started {
+    margin-right: -1rem;
+}
+
+.getting-started h6,
+.applications h6 {
+    font-size: 1.3rem;
+    font-weight: 300;
+    padding-top: 0.3rem;
+    padding-bottom: 0.5rem;
+}
+
+.info-text,
+.app-text {
+    text-align: center;
+    width: 90%;
+    padding-right:2rem
+}
+
+.list {
+    width: 75%;
+    text-align: center;
+    margin-top: 0.4rem;
+}
+
+.list ul li a:hover,
+.blue-text:hover {
+    color: #3674a9;
+    transition: 0.5s;
+}
+
+.getting-started ul li a,
+.applications ul li a,
+.blue-text {
+    text-decoration: none;
+    color: #75a8d3;
+}
+
+/* FIN INFORMATION*/
+
+/* INICIO FOOTER */
+
+footer {
+    height: 3.68rem;
+    background: linear-gradient(
+        #265175 0%,
+        #3674a9
+    );
+    color: #89bae3;
+}
+
+.contact {
+    width: 85%;
+    margin: 4rem 0 0 7.3rem;
+}
+
+.contact a {
+    padding-left: 3rem;
+    color: #89bae3;
+    font-size: 1.3rem;
+    text-decoration: none;
+}
+
+.contact a:hover {
+    color: #eee;
+    transition: .5s;
+}
+
+footer p {
+    padding-top: 0.8rem;
+    text-align: center;
+}
+
+/* TÉRMINO FOOTER */
+/* FIN CONTENT */
+
+/* NOTA: Esta página fue hecha TAL CUAL fue pedida, con márgenes corridos, textos no totalmente centrados, etc.
+No fueron aplicadas mejoras de centrado, se realizó tal cual la foto */
