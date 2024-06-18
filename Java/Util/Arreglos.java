@@ -15,7 +15,7 @@ public class Arreglos {
 
             int[] myArray = {4, 8, 8, 5, 9};
 
-         NOTA: TODOS ESTOS TIENEN UN VALOR FIJO
+        NOTA: TODOS ESTOS TIENEN UN VALOR FIJO
         */
 
         int[] myArray = {4, 8, 8, 5, 9};
